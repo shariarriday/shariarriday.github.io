@@ -130,13 +130,13 @@
             </br>
 <p>Though there are many languages for many task there are only three possible paradigms of programming
 </br></br><em>Structured, </em>
-<em>Object Oriented and </em>
+<em>Object-Oriented and </em>
 <em>Functional</em>
 </br>
 </br>
 Each of the paradigms poses some sort of restriction on how to code. For example, while structured programming restricts the
-use of ‘goto’ statements, object oriented programming restricts the way we call the functions. This article is not particularly about the 
-restrictions posed by structured programming or object oriented programming. Rather, this article aims to discuss what restrictions 
+use of ‘goto’ statements, object-oriented programming restricts the way we call the functions. This article is not particularly about the 
+restrictions posed by structured programming or object-oriented programming. Rather, this article aims to discuss what restrictions 
 are posed by functional programming paradigm and how these restrictions are maintained in a Javascript code.
 </p>
 
@@ -145,7 +145,7 @@ are posed by functional programming paradigm and how these restrictions are main
 <blockquote>
     <p>Functional programming (often abbreviated FP) is the process of building software by composing pure functions, avoiding
     shared state, mutable data, and side-effects. Functional programming is declarative rather than imperative, and
-    application state flows through <em>pure functions</em>. Contrast with object oriented programming, where application state is
+    application state flows through <em>pure functions</em>. Contrast with object-oriented programming, where application state is
     usually shared and colocated with methods in objects.</p>
 </blockquote>
 
@@ -163,7 +163,7 @@ We can solve this problem very easily using a for loop using structural programm
 
 <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">arr</span><span class="p">);</span></code></pre></figure>
 
-Or, we can create a Object and use that that object for code reusability.
+Or, we can create an object and use that that object for code reusability.
 <figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">class</span> <span class="nx">squaringClass</span><span class="p">{</span>
     <span class="kd">constructor</span><span class="p">(</span><span class="nx">arr</span><span class="p">)</span>
     <span class="p">{</span>
@@ -185,7 +185,7 @@ Or, we can create a Object and use that that object for code reusability.
 <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">squaredArr</span><span class="p">);</span></code></pre></figure>
 
 <p>
-The first idea of functional programming is to divide our program into small and testable functions similar to how we construct classes in object oriented programming.
+The first idea of functional programming is to divide our program into small and testable functions similar to how we construct classes in object-oriented programming.
 One quick glance and we can refactor our previous codeblocks to include a function that takes a number as input and returns the square for us as the output.
 </p>
 <figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">let</span> <span class="nx">arr</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">];</span>
@@ -213,7 +213,7 @@ The answer is <em>'No'.</em>
 <p>
     So, how can we achieve our goal of squaring all the number of arrays without actually <em>modifying</em> the values? Turns out javascript has 
     lots of function that can help with that. Here, we will use <em>map</em> function and apply the previously defined square function to each element of array
-    individually. The built in map function does not modify the values inside the array directly but rather creates a new array 
+    individually. The built-in map function does not modify the values inside the array directly but rather creates a new array 
     altogether. This all relates to the concept of <em>immutability</em> in javascript and we can discuss it in depth in a future article.
 </p>
 
@@ -229,9 +229,9 @@ The answer is <em>'No'.</em>
 <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">arr</span><span class="p">);</span></code></pre></figure>
 
 <p>
-In summary, we took a look at functional programming paradigm and how it differs from more common paradigms like structural programming and object oriented programming.
-Functional programming paradigm is becoming very popular because of it's use in libraries like React where mutating states are discouraged. Moreover, the properties 
-of functional programming help us to avoid deadlocks which means the programs are more thread safe. So, we can write more reliable programs by using this paradigm properly
+In summary, we took a look at functional programming paradigm and how it differs from more common paradigms like structural programming and object-oriented programming.
+Functional programming paradigm is becoming very popular because of it's use in libraries like React, where mutating states are discouraged. Moreover, the properties 
+of functional programming help us to avoid deadlocks. This helps the programs to be more thread safe. So, we can write more reliable programs by using this paradigm properly
 and we will discuss this in depth in future articles.
 </p>
 

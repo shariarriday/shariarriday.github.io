@@ -13,13 +13,13 @@
           <description>&lt;/br&gt;
 &lt;p&gt;Though there are many languages for many task there are only three possible paradigms of programming
 &lt;/br&gt;&lt;/br&gt;&lt;em&gt;Structured, &lt;/em&gt;
-&lt;em&gt;Object Oriented and &lt;/em&gt;
+&lt;em&gt;Object-Oriented and &lt;/em&gt;
 &lt;em&gt;Functional&lt;/em&gt;
 &lt;/br&gt;
 &lt;/br&gt;
 Each of the paradigms poses some sort of restriction on how to code. For example, while structured programming restricts the
-use of ‘goto’ statements, object oriented programming restricts the way we call the functions. This article is not particularly about the 
-restrictions posed by structured programming or object oriented programming. Rather, this article aims to discuss what restrictions 
+use of ‘goto’ statements, object-oriented programming restricts the way we call the functions. This article is not particularly about the 
+restrictions posed by structured programming or object-oriented programming. Rather, this article aims to discuss what restrictions 
 are posed by functional programming paradigm and how these restrictions are maintained in a Javascript code.
 &lt;/p&gt;
 
