@@ -41,11 +41,11 @@ are posed by functional programming paradigm and how these restrictions are main
 </blockquote>
 
 <p>
-    We can not completely understand why this paradigm exist from this definition alone. So, let's take a simple scenario of squaring 
-    the numbers in an array and try to compare between these paradigms.
+    In order to understand these programming paradigm, let's take a look at some Javascript code that tries to solve the
+    problem of calculating squares from an array of number.
 </p>
 <p>
-We can solve this problem very easily using a for loop
+We can solve this problem very easily using a for loop using structural programming
 </p>
 <figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">let</span> <span class="nx">arr</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">];</span>
 
@@ -54,7 +54,7 @@ We can solve this problem very easily using a for loop
 
 <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">arr</span><span class="p">);</span></code></pre></figure>
 
-Or, we can create a Object and use that that object for a more reusable code.
+Or, we can create a Object and use that that object for code reusability.
 <figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">class</span> <span class="nx">squaringClass</span><span class="p">{</span>
     <span class="kd">constructor</span><span class="p">(</span><span class="nx">arr</span><span class="p">)</span>
     <span class="p">{</span>
@@ -77,7 +77,7 @@ Or, we can create a Object and use that that object for a more reusable code.
 
 <p>
 The first idea of functional programming is to divide our program into small and testable functions similar to how we construct classes in object oriented programming.
-One quick glance and we can refactor our previous codes to include a function that takes a number and returns the square for us.
+One quick glance and we can refactor our previous codeblocks to include a function that takes a number as input and returns the square for us as the output.
 </p>
 <figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">let</span> <span class="nx">arr</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">];</span>
 
@@ -97,15 +97,15 @@ The answer is <em>'No'.</em>
 </p>
 
 <blockquote>
-    The restriction posed by functional programming is in using the assignment operator. In another term, we don't change the values 
+    The restriction posed by functional programming is in using the assignment operator. In another term, we don't change the assigned values 
     of variables directly in a pure functional program.
 </blockquote>
 
 <p>
-    How can we achieve our goal of squaring all the number of arrays without actually changing the values? Turns out javascript has 
-    lots of function that can help with that. We will use <em>map</em> function and apply square function to each element of array
-    individually. The built in map function does not change the values inside the array directly but rather creates a new variable 
-    altogether. This all relates to the concept of <em>Immutability</em> in javascript and we can discuss it in depth in a future article.
+    So, how can we achieve our goal of squaring all the number of arrays without actually <em>modifying</em> the values? Turns out javascript has 
+    lots of function that can help with that. Here, we will use <em>map</em> function and apply the previously defined square function to each element of array
+    individually. The built in map function does not modify the values inside the array directly but rather creates a new array 
+    altogether. This all relates to the concept of <em>immutability</em> in javascript and we can discuss it in depth in a future article.
 </p>
 
 <figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">function</span> <span class="nx">square</span><span class="p">(</span><span class="nx">x</span><span class="p">)</span>
@@ -120,7 +120,7 @@ The answer is <em>'No'.</em>
 <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">arr</span><span class="p">);</span></code></pre></figure>
 
 <p>
-In summary, instead of constructing classes to solve our problem and isolate our data, we create functions and avoid assiging new variables overriding the old ones.
+In summary, 
 </p>
 	  ]]></description>
 	</item>
