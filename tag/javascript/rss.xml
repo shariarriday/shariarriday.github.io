@@ -25,19 +25,19 @@
 <em>Functional</em>
 </br>
 </br>
-Each of the paradigms poses some sort of restriction on how to code. For example, structured programming restricts the
-use of ‘goto’ statements. This article is not particularly about the restrictions posed by structured programming or
-object oriented programming. Rather, this article wants to discuss what restrictions are posed by functional programming
-paradigm and how these restrictions are maintained in a javascript code.
+Each of the paradigms poses some sort of restriction on how to code. For example, while structured programming restricts the
+use of ‘goto’ statements, object oriented programming restricts the way we call the functions. This article is not particularly about the 
+restrictions posed by structured programming or object oriented programming. Rather, this article aims to discuss what restrictions 
+are posed by functional programming paradigm and how these restrictions are maintained in a Javascript code.
 </p>
 
 <h2 id="blockquotes">What is functional programming?</h2>
 
 <blockquote>
-    <p>In computer science, functional programming is a programming paradigm where programs are constructed by applying and
-    composing functions. It is a declarative programming paradigm in which function definitions are trees of expressions
-    that map values to other values, rather than a sequence of imperative statements which update the running state of the
-    program.<cite>— <a href="https://en.wikipedia.org/wiki/Functional_programming">Wikipedia</a></cite></p>
+    <p>Functional programming (often abbreviated FP) is the process of building software by composing pure functions, avoiding
+    shared state, mutable data, and side-effects. Functional programming is declarative rather than imperative, and
+    application state flows through <em>pure functions</em>. Contrast with object oriented programming, where application state is
+    usually shared and colocated with methods in objects.</p>
 </blockquote>
 
 <p>

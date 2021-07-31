@@ -17,10 +17,10 @@
 &lt;em&gt;Functional&lt;/em&gt;
 &lt;/br&gt;
 &lt;/br&gt;
-Each of the paradigms poses some sort of restriction on how to code. For example, structured programming restricts the
-use of ‘goto’ statements. This article is not particularly about the restrictions posed by structured programming or
-object oriented programming. Rather, this article wants to discuss what restrictions are posed by functional programming
-paradigm and how these restrictions are maintained in a javascript code.
+Each of the paradigms poses some sort of restriction on how to code. For example, while structured programming restricts the
+use of ‘goto’ statements, object oriented programming restricts the way we call the functions. This article is not particularly about the 
+restrictions posed by structured programming or object oriented programming. Rather, this article aims to discuss what restrictions 
+are posed by functional programming paradigm and how these restrictions are maintained in a Javascript code.
 &lt;/p&gt;
 
 </description>
