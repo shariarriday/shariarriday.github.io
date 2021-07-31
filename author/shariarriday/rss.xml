@@ -120,7 +120,10 @@ The answer is <em>'No'.</em>
 <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">arr</span><span class="p">);</span></code></pre></figure>
 
 <p>
-In summary, 
+In summary, we took a look at functional programming paradigm and how it differs from more common paradigms like structural programming and object oriented programming.
+Functional programming paradigm is becoming very popular because of it's use in libraries like React where mutating states are discouraged. Moreover, the properties 
+of functional programming help us to avoid deadlocks which means the programs are more thread safe. So, we can write more reliable programs by using this paradigm properly
+and we will discuss this in depth in future articles.
 </p>
 	  ]]></description>
 	</item>
