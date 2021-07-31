@@ -1,1 +1,1 @@
-Sitemap: /sitemap.xml
+Sitemap: https://shariarriday.github.io/sitemap.xml
