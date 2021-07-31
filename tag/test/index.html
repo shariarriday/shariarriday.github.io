@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <!-- Page Meta -->
-    <title>Shariar Azad</title>
+    <title>Shariar Azad's Blog</title>
     <meta name="description" content="" />
 
     <!-- Mobile Meta -->
@@ -26,31 +26,31 @@
     <style>.hljs { background: none; }</style>
 
     <!-- Ghost outputs important style and meta data with this tag -->
-        <link rel="canonical" href="http://localhost:4000//" />
+        <link rel="canonical" href="http://localhost:4000//tag/test/" />
     <meta name="referrer" content="origin" />
     <link rel="next" href="/page2/" />
 
     <meta property="og:site_name" content="Shariar Azad's Blog" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Shariar Azad" />
+    <meta property="og:title" content="Shariar Azad's Blog" />
     <meta property="og:description" content="" />
-    <meta property="og:url" content="http://localhost:4000//" />
-    <meta property="og:image" content="/assets/images/cover1.jpg" />
+    <meta property="og:url" content="http://localhost:4000//tag/test/" />
+    <meta property="og:image" content="/assets/images/cover2.jpg" />
 
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Shariar Azad" />
+    <meta name="twitter:title" content="Shariar Azad's Blog" />
     <meta name="twitter:description" content="" />
-    <meta name="twitter:url" content="http://localhost:4000//" />
-    <meta name="twitter:image:src" content="/assets/images/cover1.jpg" />
+    <meta name="twitter:url" content="http://localhost:4000//tag/test/" />
+    <meta name="twitter:image:src" content="/assets/images/cover2.jpg" />
 
     <script type="application/ld+json">
 {
     "@context": "http://schema.org",
     "@type": "Website",
     "publisher": "Shariar Azad's Blog",
-    "name": "Shariar Azad",
-    "url": "http://localhost:4000//",
-    "image": "/assets/images/cover1.jpg",
+    "name": "Shariar Azad's Blog",
+    "url": "http://localhost:4000//tag/test/",
+    "image": "/assets/images/cover2.jpg",
     "description": ""
 }
     </script>
@@ -60,7 +60,7 @@
 
 
 </head>
-<body class="home-template nav-closed">
+<body class="tag-template nav-closed">
 
     <!-- The blog navigation links -->
     <div class="nav">
@@ -78,12 +78,14 @@
     <div class="site-wrapper">
 
         <!-- All the main content gets inserted here, index.hbs, post.hbs, etc -->
-        <!-- < default -->
+        <!-- dynamically overriding backgrounds for tags as well as descriptions -->
+
+
+<!-- default -->
 <!-- The tag above means - insert everything in this file into the [body] of the default.hbs template -->
 
-<!-- The big featured header  -->
-<header class="main-header "
-        style="background-image: url(/assets/images/cover1.jpg) ">
+<!-- If we have a tag cover, display that - else blog cover - else nothing -->
+<header class="main-header tag-head " style="background-image: url(/assets/images/cover2.jpg) ">
     <nav class="main-nav overlay clearfix">
         <a class="blog-logo" href="/"><img src="/assets/images/ghost.png" alt="Blog Logo" /></a>
         
@@ -92,11 +94,14 @@
     </nav>
     <div class="vertical">
         <div class="main-header-content inner">
-            <h1 class="page-title">Shariar Azad's Blog</h1>
-            <h2 class="page-description"></h2>
+            <h1 class="page-title">Test</h1>
+            <h2 class="page-description">
+            
+			    A 1-post collection
+            
+            </h2>
         </div>
     </div>
-    <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
 </header>
 
 <!-- The main content area on the homepage -->
@@ -148,37 +153,6 @@
                 
             
             <time class="post-date" datetime="2014-09-27">27 Sep 2014</time>
-        </footer>
-    </article>
-    
-    <article class="post">
-        <header class="post-header">
-            <h2 class="post-title"><a href="/gettysburg-address">Gettysburg Address</a></h2>
-        </header>
-        <section class="post-excerpt">
-            <p>Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men... <a class="read-more" href="/gettysburg-address">&raquo;</a></p>
-        </section>
-        <footer class="post-meta">
-            
-                
-
-                <img class="author-thumb" src="/assets/images/profile-pic.jpg" alt="Author image" nopin="nopin" />
-                <!-- author -->
-                <a href='/author/shariarriday'>Shariar Azad</a>
-
-                
-            
-
-            <!-- [[tags prefix=" on "]] -->
-            
-                on
-                
-                    
-                       <a href='/tag/fiction'>Fiction</a>
-                    
-                
-            
-            <time class="post-date" datetime="1863-11-19">19 Nov 1863</time>
         </footer>
     </article>
     
