@@ -4,7 +4,7 @@
     <title>Shariar Azad's Blog - Articles</title>
     <description></description>
     <link>
-    http://localhost:4000</link>
+    </link>
     
       
       <item>
@@ -27,8 +27,8 @@ paradigm and how these restrictions are maintained in a javascript code.
         
         <pubDate>Fri, 30 Jul 2021 16:18:00 +0600</pubDate>
         <link>
-        http://localhost:4000/functional-Programming-and-javascript</link>
-        <guid isPermaLink="true">http://localhost:4000/functional-Programming-and-javascript</guid>
+        /functional-Programming-and-javascript</link>
+        <guid isPermaLink="true">/functional-Programming-and-javascript</guid>
       </item>
       
     
